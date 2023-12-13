@@ -1,0 +1,54 @@
+     Program POST-PROC v.6.7MaX starts on 13Dec2023 at 12: 3:45
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org",
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on   170 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =     170
+
+     Reading xml data from directory:
+
+     ./outdir/Monomer_J.save/
+     file F.pbe-n-rrkjus_psl.1.0.0.UPF: wavefunction(s)  2S renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         631     252     62               228056    57684    7194
+     Max         634     254     64               228082    57714    7228
+     Sum      107629   43053  10765             38771609  9808281 1225975
+
+
+     negative rho (up, down):  1.696E-02 0.000E+00
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band = 75
+     Writing data to file  LUMO_monomerJ.dat
+     Reading data from file  LUMO_monomerJ.dat
+
+     Writing data to be plotted to file LUMO_monomerJ.cub
+     Plot Type: 3D                     Output format: Gaussian cube
+
+     POST-PROC    :   1m52.63s CPU   1m58.08s WALL
+
+
+   This run was terminated on:  12: 5:43  13Dec2023
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
