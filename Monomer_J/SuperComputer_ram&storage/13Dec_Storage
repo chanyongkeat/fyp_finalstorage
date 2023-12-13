@@ -1,0 +1,14 @@
+1018M   HOMO_monomerJ.cub
+1.3G    HOMO_monomerJ.dat
+1018M   LUMO_monomerJ.cub
+1.3G    LUMO_monomerJ.dat
+28K     Monomer_J.plot_S.dat
+368K    Monomer_J.plot_chi.dat
+4.0K    homoplot.in
+4.0K    lumoplot.in
+1.3G    outdir/Monomer_J.save
+13G     outdir
+4.0K    turbolanczos.in
+4.0K    turbospectrum.in
+4.0K    turbospectrum.in.1
+4.0K    turbospectrum.out
